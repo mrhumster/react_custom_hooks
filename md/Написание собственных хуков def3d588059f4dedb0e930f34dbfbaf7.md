@@ -124,7 +124,7 @@ export function useOnlineStatus() {
 ```
 
 ```jsx
-import {useOnlineStatus} from "../hooks";
+import {useOnlineStatus} from "../context";
 
 export function StatusBar() {
     const isOnline = useOnlineStatus();
